@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	display: block;
+}
+ul{
+	list-style:none
+}
+a{
+	text-decoration:none; 
+}
+
+#Home{
+	width: 100%;
+}
+#Home input{
+	width: 100%;
+	height: 50px;
+	margin: 20px 0;
+}
+#Home table{
+	background-color: #d4d4d4;
+	width: 100%;
+}
+#Home table tr{
+	height: 75px;
+}
+#Home tr th{
+	line-height: 75px;
+	text-align: center;
+}
+#Home tr td{
+	line-height: 75px;
+	text-align: center;
+}
+#Home .image img{
+
+}
+#Home .tags span{
+	margin-right: 3px;
+	border: 1px solid #1890ff;
+	border-radius:5px;
+}
+#Home tr:hover{
+	background-color: #ffffff;
+}
+#Home .shenzi .description{
+	display: block;
+	width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+#Home li {
+	overflow: hidden;
+}
+#Home li span{
+	float: left;
+}
+#Home li a{
+	float: right;
+}
